@@ -1,0 +1,4 @@
+rootProject.name = 'J_Instagram_Clone'
+include 'Instagram_Clone'
+findProject(':Instagram_Clone')?.name = 'lk.ijse'
+
