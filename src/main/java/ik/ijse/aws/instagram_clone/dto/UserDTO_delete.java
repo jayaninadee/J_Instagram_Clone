@@ -1,20 +1,18 @@
+/*package ik.ijse.ws.instagram_clone.dto;
 
-package ik.ijse.aws.instagram_clone.dto;
 import org.springframework.web.multipart.MultipartFile;
-
-        import java.io.File;
 
 public class UserDto {
     private String name;
     private String username;
     private String password;
-    private MultipartFile pro_pic;
+    private String pro_pic;
 
 
     public UserDto() {
     }
 
-    public UserDto(String name, String username, String password, MultipartFile pro_pic) {
+    public UserDto(String name, String username, String password, String pro_pic) {
         this.name = name;
         this.username = username;
         this.password = password;
@@ -26,19 +24,11 @@ public class UserDto {
         this.password = password;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public MultipartFile getPro_pic() {
+    public String getPro_pic() {
         return pro_pic;
     }
 
-    public void setPro_pic(MultipartFile pro_pic) {
+    public void setPro_pic(String pro_pic) {
         this.pro_pic = pro_pic;
     }
 
@@ -75,4 +65,4 @@ public class UserDto {
                 ", pro_pic='" + pro_pic + '\'' +
                 '}';
     }
-}
+}*/
